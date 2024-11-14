@@ -168,7 +168,7 @@ void loop() {
 
 #### Explicação do Código
 
-**Configuração Inicial**: O código configura o ESP32, o sensor LDR e os LEDs para simular o semáforo. Conecta-se à rede WiFi e ao Ubidots, onde as variáveis de luminosidade e modo noturno são monitoradas.
+**Configuração Inicial**: O código configura o ESP32, o sensor LDR e os LEDs para simular o semáforo. Conecta-se à rede WiFi e ao Ubidots, onde as variáveis de luminosidade e modo noturno são monitoradas...
 
 **Modo Noturno e Semáforo:** O sensor LDR captura a intensidade de luz, ativando o modo noturno automaticamente quando a luz ambiente está abaixo do valor limite definido (THRESHOLD). Se o modo noturno estiver ativado, apenas o LED amarelo permanece aceso.
 Ciclo de Cores do Semáforo: No modo diurno, o semáforo alterna entre vermelho, verde e amarelo, simulando um semáforo comum.
