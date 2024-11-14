@@ -163,3 +163,18 @@ void loop() {
 
   delay(500); // Reduz o delay para testar a atualização
 }
+
+```
+
+#### Explicação do Código
+
+**Configuração Inicial**: O código configura o ESP32, o sensor LDR e os LEDs para simular o semáforo. Conecta-se à rede WiFi e ao Ubidots, onde as variáveis de luminosidade e modo noturno são monitoradas.
+
+**Modo Noturno e Semáforo:** O sensor LDR captura a intensidade de luz, ativando o modo noturno automaticamente quando a luz ambiente está abaixo do valor limite definido (THRESHOLD). Se o modo noturno estiver ativado, apenas o LED amarelo permanece aceso.
+Ciclo de Cores do Semáforo: No modo diurno, o semáforo alterna entre vermelho, verde e amarelo, simulando um semáforo comum.
+
+**Callback e Publicação:** A função de callback atualiza o modo noturno baseado nas instruções recebidas pelo Ubidots, enquanto os dados do sensor são enviados para o Ubidots a cada ciclo, permitindo monitoramento remoto.
+
+
+### Conclusão
+Este projeto demonstrou uma aplicação prática para sistemas inteligentes de controle de tráfego, onde o semáforo ajusta o fluxo de veículos baseado em dados de luminosidade. A integração com o Ubidots provou ser um recurso importante para monitoramento e controle remoto, destacando o papel das IoT e Smart Cities na automação de infraestruturas urbanas.
