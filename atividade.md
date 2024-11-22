@@ -21,7 +21,7 @@ Nesta atividade ponderada, nos foi atribuído o desafio de desenvolver um sistem
 <div align="center">
 <sub>Figura 1 - atividade </sub><br>
 <img src="assets/atividade_semafaro.jpeg" width="80%" ><br>
-<sup>Fonte: Material produzido pelos autores (2024)</sup>
+<sup>Fonte: Material produzido pelos autores (2024)</sup></div>
 
 [Assista ao vídeo demonstrativo](https://youtube.com/shorts/yCTKtU2RNfo?si=DzkuWeKB-g9GdwfM)
 
